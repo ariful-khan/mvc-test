@@ -18,7 +18,6 @@ class SurveyController extends Controller
 
     public function survey(Request $request)
     {
-        var_dump($request->all()); exit;
         return view('survey.form');
     }
 }
